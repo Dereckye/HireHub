@@ -1,0 +1,38 @@
+
+<div id="top-container" class="container-fluid">
+    <h1 id="main-title" class="text-center">Find the job of your Dreams!!!</h1>
+    <p id="main-subtilte" class="text-center">We are the best site with job opportunities on the market, aimed at work at home</p>
+    <form id="search-form" class="form-inline" action="/" method="GET">
+        <div class="form-group col-md-10">
+            <input type="text" class="form-control" id="job" name="job" placeholder="Enter the vacancy you are looking for....">
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+</div>
+
+<main>
+    <div id="jobs-container" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{#if search}}
+        <h2 id="job-lis-title">Searching Vacancies that contain: {{search}}</h2>                
+                {{else}}
+        <h2 id="job-lis-title">Come see our featured vacancies!</h2>
+                {{/if}}
+                <ul id="job-list" class="list-group">
+               {{#each jobs}}
+                    <li class="list-group-item {{#if dataValues.new_job }}new-job{{/if}}">
+                        <img src="/img/company.svg" alt="CompanyLogo">
+                        <p>{{dataValues.company}}</p>
+                        <h2>{{dataValues.title}}</h2>
+                        <p>${{dataValues.salary}}</p>
+                    <span class="new-job-label">New</span>
+                        <a class="btn btn-primary" href="/jobs/view/{{dataValues.id}}">Vacancies</a>
+                    </li>
+                    {{/each}}
+                </ul>   
+            </div>
+        </div>
+</main>

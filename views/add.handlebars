@@ -1,0 +1,39 @@
+ <div id="add-form-container" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Fill out this form:</h1>
+            </div>
+            <div id="form-box" class="col-md-12">
+                <h2>Fill in the most detailed way to find what you are looking for</h2>
+                <form action="/jobs/add" method="POST">
+                    <div class="form-group">
+                        <label for="title">Title of the Vacancy:</label>
+                        <input type="text" class="form-control" id="title" name="title" placeholder="Enter job title" required>
+                        <small id="title-help" class="form-text text-muted">The title is very important, be clear and objective</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description of the Vacancy:</label>
+                        <textarea type="text" class="form-control" id="description" name="description" placeholder="Describe the activities of the developer..." required></textarea>
+                        </div>
+
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" class="form-control" id="company" name="company" placeholder="Enter your company name right here" required>
+                       </div>
+
+                    <div class="form-group">
+                        <label for="email">Contact:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Write your contact email" required>
+                        </div>
+
+                    <div class="form-group">
+                        <label for="salary">Salary:</label>
+                        <input type="text" class="form-control" id="salary" name="salary" placeholder="Right here is for the salary of this vacancy" required>
+                        </div>
+                        <input type="hidden" name="new_job" value="1">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
