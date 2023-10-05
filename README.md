@@ -1,5 +1,5 @@
 # HireHub
-HireHub: Plataforma de contratação de profissionais com recursos avançados para facilitar a conexão entre talentos e contratantes. Cadastro de perfis, busca de projetos e abas de descrição da vaga..
+Este site é uma plataforma de contratação de profissionais com recursos avançados para facilitar a conexão entre talentos e contratantes. Cadastro de perfis, busca de vagas e abas de descrição da vaga
 ## Visão Geral
 
 O HireHub é um site de Busca e Criação de Vagas no campo da Tecnologia. Ele permite aos usuários encontrar vagas de emprego específicas e também oferece a funcionalidade de criar novas vagas e visualizar detalhes específicos das vagas listadas.
