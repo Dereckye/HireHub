@@ -19,7 +19,7 @@ Antes de executar o projeto de backend, siga estas etapas de configuração:
 1. Clone este repositório para sua máquina local usando o comando:
 
    ```
-   git clone [URL do repositório]
+   git clone https://github.com/Dereckye/HireHub
    ```
 
 2. Instale as dependências do projeto usando o seguinte comando:
