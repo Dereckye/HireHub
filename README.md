@@ -47,3 +47,7 @@ Se você deseja contribuir para o desenvolvimento deste projeto, siga as diretri
 ## Contato
 
 Para qualquer dúvida ou problema relacionado ao projeto, entre em contato comigo por dereckluizs@gmail.com
+
+<footer>
+    <p>&copy; Dereck Luiz dos Santos</p>
+</footer>
