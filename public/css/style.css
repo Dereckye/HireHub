@@ -186,15 +186,15 @@
     #form-bos button {
         height: 50px;
         width: 200px;
-        background-color: #0e7eff;
+        background-color: green;
         border: 1px solid transparent;
         margin-top: 20px ;
     }
 
     #form-box button:hover{
         background-color: #ffffff;
-        color: #0e7eff;
-        border-color: #0e7eff;
+        color: darkgreen;
+        border-color: green;
     }
 
 
