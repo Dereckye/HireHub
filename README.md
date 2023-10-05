@@ -2,15 +2,22 @@
 Este site é uma plataforma de contratação de profissionais com recursos avançados para facilitar a conexão entre talentos e contratantes. Cadastro de perfis, busca de vagas e abas de descrição da vaga
 ## Visão Geral
 
+![Texto Alternativo](ReadMeImages/image(1).png)
+
+
 O HireHub é um site de Busca e Criação de Vagas no campo da Tecnologia. Ele permite aos usuários encontrar vagas de emprego específicas e também oferece a funcionalidade de criar novas vagas e visualizar detalhes específicos das vagas listadas.
 
 ### Funcionalidades Principais
 
 - **Pesquisa de Vagas:** Os usuários podem buscar vagas específicas usando palavras-chave, localização ou outros filtros relevantes.
-
-- **Criação de Vagas:** Empregadores podem criar novas vagas, incluindo informações detalhadas sobre a posição, requisitos e localização.
+![Texto Alternativo](ReadMeImages/image(3).png)
+![Texto Alternativo](ReadMeImages/image(4).png)
 
 - **Visualização de Detalhes da Vaga:** Os usuários podem clicar em uma vaga para obter mais informações, como descrição completa, requisitos e como se candidatar.
+![Texto Alternativo](ReadMeImages/image(5).png)
+
+- **Criação de Vagas:** Empregadores podem criar novas vagas, incluindo informações detalhadas sobre a posição, requisitos e localização.
+![Texto Alternativo](ReadMeImages/image(6).png)
 
 ## Configuração
 
@@ -35,7 +42,7 @@ Antes de executar o projeto de backend, siga estas etapas de configuração:
 Para executar o projeto de backend, utilize o seguinte comando:
 
 ```
-npm start
+npm run dev
 ```
 
 O servidor será iniciado e estará pronto para lidar com as solicitações dos clientes.
