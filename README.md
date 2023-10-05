@@ -44,12 +44,6 @@ O servidor será iniciado e estará pronto para lidar com as solicitações dos 
 
 Se você deseja contribuir para o desenvolvimento deste projeto, siga as diretrizes de contribuição no arquivo `CONTRIBUTING.md`.
 
-## Manutenção
-
-Certifique-se de manter o backend atualizado com as últimas correções de bugs e melhorias de segurança. Faça regularmente atualizações no repositório e mantenha uma documentação precisa para futuros desenvolvedores.
-
 ## Contato
 
-Para qualquer dúvida ou problema relacionado ao projeto, entre em contato conosco em [seu endereço de e-mail].
-
-Esperamos que este README seja útil para você e para outros colaboradores do projeto HireHub. Continue trabalhando duro no desenvolvimento deste site incrível!
+Para qualquer dúvida ou problema relacionado ao projeto, entre em contato comigo por dereckluizs@gmail.com
